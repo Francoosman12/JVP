@@ -1,0 +1,10 @@
+.navbar {
+    background-color: rgba(239, 248, 237, 0.7);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.logo {
+    height: 80px;
+    width: 130px;
+}

@@ -1,0 +1,30 @@
+.home {
+    width: 100%;
+}
+
+.header-1 {
+    background-color: rgba(239, 248, 237, 0.2);
+    border-radius: 30px;
+}
+
+.section-1 {
+    background-color: rgba(239, 248, 237, 0.7);
+    border-radius: 30px;
+}
+
+.title-section {
+    color: grey;
+}
+
+.logo-section-1 {
+    width: 300px;
+}
+
+.logo-section-2 {
+    width: 200px;
+    height: 132px;
+}
+
+.card {
+    border-radius: 50px;
+}
