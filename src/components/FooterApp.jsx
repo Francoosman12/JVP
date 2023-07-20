@@ -72,7 +72,7 @@ const FooterApp = () => {
           </Row>
         </Container>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center copyright">
         <h6 className="text-cyan">© Desarrollado por Osmán, Franco - 2023</h6>
       </div>
     </footer>
