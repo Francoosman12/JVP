@@ -67,7 +67,7 @@ const HomeScreen = () => {
         </Row>
       </section>
       <section>
-        {/* <MySlider /> */}
+        <MySlider />
       </section>
 
     </>
