@@ -16,6 +16,7 @@ const HomeScreen = () => {
             <p class="description">¡Bienvenidos a la distribuidora de mercadería líder en calidad y servicio!</p>
             <p class="description">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>
             <button class="action-button">¡Descubre nuestras ofertas!</button> */}
+            <h1 className="text-center p-2">Nuestras Sucursales</h1>
             <Sucursales />
           </Col>
         </Row>

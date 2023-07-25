@@ -6,6 +6,7 @@ import Tucuman from './tucuman';
 import Catamarca from './catamarca';
 import Santiago from './santiago';
 import LaRioja from './laRioja';
+import '../css/sucursales.css';
 
 function Sucursales() {
     const [key, setKey] = useState('home');
