@@ -6,7 +6,7 @@ import Tucuman from './tucuman';
 import Catamarca from './catamarca';
 import Santiago from './santiago';
 import LaRioja from './laRioja';
-import '../css/sucursales.css';
+import '../css/sucursales.css'
 
 function Sucursales() {
     const [key, setKey] = useState('home');
@@ -17,6 +17,7 @@ function Sucursales() {
             activeKey={key}
             onSelect={(k) => setKey(k)}
             className="mb-3"
+
         >
             <Tab eventKey="home" title="Tucumán">
                 <Row className='d-flex justify-content-center align-items-center'>

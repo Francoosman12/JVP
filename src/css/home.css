@@ -7,6 +7,12 @@
     border-radius: 30px;
 }
 
+.title-sucursales {
+    background-color: rgba(239, 248, 237, 0.7);
+    border-radius: 30px;
+    color: grey;
+}
+
 .section-1 {
     background-color: rgba(239, 248, 237, 1);
     border-radius: 30px;
