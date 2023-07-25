@@ -11,7 +11,7 @@ const HomeScreen = () => {
       <header className="home">
         <Row className="d-xl-flex d-md-block d-sm-block justify-content-center align-items-center mt-3 w-100 animate__animated animate__fadeInDown">
           <Col className="col-lg-6 col-10 header-1"></Col>
-          <Col className="col-lg-6 col-10 header-1">
+          <Col className="col-lg-6 col-10 header-1 p-3">
             {/* <h1>Jose v. Paoletti</h1>
             <p class="description">¡Bienvenidos a la distribuidora de mercadería líder en calidad y servicio!</p>
             <p class="description">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>

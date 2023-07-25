@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 
-const Tucuman = () => {
+
+const LaRioja = () => {
     useEffect(() => {
         // Load Visme embed script dynamically
         const script = document.createElement('script');
@@ -18,8 +19,8 @@ const Tucuman = () => {
         <div>
             <div
                 className="visme_d"
-                data-title="Tucuman"
-                data-url="764o8opx-tucuman"
+                data-title="La Rioja"
+                data-url="1jxoyoz8-la-rioja"
                 data-w="600"
                 data-full-h="false"
                 data-h="700"
@@ -57,4 +58,4 @@ const Tucuman = () => {
     );
 };
 
-export default Tucuman;
+export default LaRioja;

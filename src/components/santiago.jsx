@@ -18,8 +18,8 @@ const Santiago = () => {
         <div>
             <div
                 className="visme_d"
-                data-title="Santiago del Estero"
-                data-url="w49y8vd1-santiago-del-estero"
+                data-title="Santiago"
+                data-url="8roye9nv-santiago"
                 data-w="600"
                 data-full-h="false"
                 data-h="700"
@@ -50,7 +50,6 @@ const Santiago = () => {
                         whiteSpace: 'nowrap',
                     }}
                 >
-
                 </a>
             </p>
         </div>

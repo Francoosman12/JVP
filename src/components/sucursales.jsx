@@ -5,6 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 import Tucuman from './tucuman';
 import Catamarca from './catamarca';
 import Santiago from './santiago';
+import LaRioja from './laRioja';
 
 function Sucursales() {
     const [key, setKey] = useState('home');
@@ -45,8 +46,19 @@ function Sucursales() {
                     </Col>
                 </Row>
             </Tab>
-            <Tab eventKey="Rioja" title="Rioja">
-                Tab content for Contact
+            <Tab eventKey="LaRioja" title="La Rioja">
+                <Row className='d-flex justify-content-center align-items-center'>
+                    <Col>
+                        <p><b>Localidad:</b> Tafí Viejo </p>
+                        <p><b>Dirección:</b> Av. Peru 391 </p>
+                        <p><b>Teléfono:</b> 0381 461-7761 </p>
+                        <p><b>Email:</b> rrhh@josevpaoletti.com.ar </p>
+
+                    </Col>
+                    <Col>
+                        <LaRioja />
+                    </Col>
+                </Row>
             </Tab>
             <Tab eventKey="Santiago" title="Santiago del Estero">
                 <Row className='d-flex justify-content-center align-items-center'>
