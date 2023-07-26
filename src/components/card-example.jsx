@@ -15,11 +15,8 @@ function GroupCard() {
 
                         </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-                </Row>
 
+                </Row>
             </Card>
             <Card>
                 <Row className='justify-content-center'>
@@ -30,9 +27,6 @@ function GroupCard() {
 
                         </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
                 </Row>
             </Card>
             <Card>
@@ -44,9 +38,6 @@ function GroupCard() {
 
                         </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
                 </Row>
             </Card>
 

@@ -1,6 +1,5 @@
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -20,20 +19,20 @@ function NavbarApp() {
             style={{ maxHeight: '200px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Inicio</Nav.Link>
-            <NavDropdown title="Empresa" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action4">
+            <Nav.Link href="/" className='text-danger'>Inicio</Nav.Link>
+            <NavDropdown title="Empresa" id="navbarScrollingDropdown" className='text-danger'>
+              <NavDropdown.Item href="#action4" className='text-danger'>
                 Nosotros
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#action5" className='text-danger'>
                 Estructura
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#action5" className='text-danger'>
                 Historia
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/Servicio">Servicios</Nav.Link>
-            <Nav.Link href="/Contacto">Contacto</Nav.Link>
+            <Nav.Link href="/Servicio" className='text-danger'>Servicios</Nav.Link>
+            <Nav.Link href="/Contacto" className='text-danger'>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

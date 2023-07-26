@@ -16,7 +16,7 @@
 }
 
 .title-home {
-    background-color: rgba(239, 248, 237, 0.7);
+    background-color: rgba(239, 248, 237, 1);
     border-radius: 30px;
     color: grey;
 }
@@ -41,4 +41,12 @@
 
 .card {
     border-radius: 50px;
+}
+
+.contacto {
+    background-image: url(https://i.ibb.co/BLCS0Kq/banner-contacto.png);
+    background-position: center center;
+    background-size: cover;
+
+    width: 100%;
 }
