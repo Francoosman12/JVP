@@ -1,8 +1,16 @@
 .home {
     width: 100%;
+    background-color: rgba(239, 248, 237, 0.2);
+    border-radius: 30px;
 }
 
 .header-1 {
+    padding: 70px;
+    background-color: rgba(239, 248, 237, 0.2);
+    border-radius: 30px;
+}
+
+.header-2 {
     background-color: rgba(239, 248, 237, 0.2);
     border-radius: 30px;
 }

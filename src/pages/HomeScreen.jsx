@@ -1,4 +1,4 @@
-import { Row, Col, Card, CardGroup, } from "react-bootstrap";
+import { Row, Col, Card, CardGroup, Button } from "react-bootstrap";
 import MySlider from "../components/Slider"
 import "../css/home.css";
 import GroupCard from "../components/card-example";
@@ -9,22 +9,28 @@ const HomeScreen = () => {
   return (
     <>
       <header className="home">
-        <Row className="d-xl-flex d-md-block d-sm-block justify-content-center align-items-center mt-3 w-100 animate__animated animate__fadeInDown">
-          <Col className="col-lg-6 col-10 header-1"></Col>
-          <Col className="col-lg-6 col-10 header-1 p-3">
-            {/* <h1>Jose v. Paoletti</h1>
+        <Row className="d-xl-flex d-md-block d-sm-block justify-content-center align-items-center mt-2 w-100 animate__animated animate__fadeInDown p-3">
+          <Col className="col-lg-6 col-sm-12 col-md-12 header-1 text-center p-5">
+            <h1>Jose v. Paoletti</h1>
             <p class="description">¡Bienvenidos a la distribuidora de mercadería líder en calidad y servicio!</p>
             <p class="description">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>
-            <button class="action-button">¡Descubre nuestras ofertas!</button> */}
+            <Button href="https://puntodeventa.tiendapropio.com/search" variant="success">¡Descubre aquí nuestras Ofertas!</Button>
+          </Col>
+          <Col className="col-lg-6 col-sm-12 col-md-12 header-2 p-3 text-center">
             <h1 className="text-center p-2 title-sucursales">Nuestras Sucursales</h1>
             <Sucursales />
           </Col>
         </Row>
       </header>
-      <section className="mt-5">
-        <GroupCard />
+      <section className="m-5 animate__animated animate__fadeInDown">
+        <Row className='d-flex justify-content-center align-items-center'>
+          <Col className='col-10'>
+            <GroupCard />
+          </Col>
+        </Row>
+
       </section>
-      <section className="section-1 mt-5">
+      <section className="section-1 m-5">
         <Row className="d-flex text-center">
           <Col className="mt-4">
             <h1 className="title-section">Grupo Paoletti</h1>
@@ -70,7 +76,11 @@ const HomeScreen = () => {
         </Row>
       </section>
       <section>
-        <MySlider />
+        <Row className="d-flex justify-content-center aling-items-center m-5">
+          <Col className="col-lg-10">
+            <MySlider />
+          </Col>
+        </Row>
       </section>
 
     </>

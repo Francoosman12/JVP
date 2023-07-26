@@ -1,45 +1,55 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Row from 'react-bootstrap/Row';
+import '../css/card-example.css';
 
 function GroupCard() {
     return (
         <CardGroup className='text-center'>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Body>
-                    <Card.Title>ENVIO GRATIS</Card.Title>
-                    <Card.Text>
+                <Row className='justify-content-center'>
+                    <Card.Img className='img-card w-25' src="https://i.ibb.co/ZVhmKtV/envio.png" />
+                    <Card.Body>
+                        <Card.Title>ENVIO GRATIS</Card.Title>
+                        <Card.Text>
 
-                    </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Row>
+
             </Card>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Body>
-                    <Card.Title>$ PAGO EN EFECTIVO</Card.Title>
-                    <Card.Text>
+                <Row className='justify-content-center'>
+                    <Card.Img className='img-card w-25' src="https://i.ibb.co/jJZPkn2/efectivo.png" />
+                    <Card.Body>
+                        <Card.Title>$ PAGO EN EFECTIVO</Card.Title>
+                        <Card.Text>
 
-                    </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Row>
             </Card>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
+                <Row className='justify-content-center'>
+                    <Card.Img className='img-card w-25' src="https://i.ibb.co/tXzyBsw/descuento.png" />
+                    <Card.Body>
+                        <Card.Title>Nuestras Ofertas</Card.Title>
+                        <Card.Text>
 
-                    </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Row>
             </Card>
+
         </CardGroup>
     );
 }

@@ -37,7 +37,7 @@ function Sucursales() {
             <Tab eventKey="Catamarca" title="Catamarca">
                 <Row className='d-flex justify-content-center align-items-center'>
                     <Col>
-                        <p><b>Localidad:</b> Tafí Viejo </p>
+                        <p><b>Localidad:</b> Catamarca </p>
                         <p><b>Dirección:</b> Av. Peru 391 </p>
                         <p><b>Teléfono:</b> 0381 461-7761 </p>
                         <p><b>Email:</b> rrhh@josevpaoletti.com.ar </p>
@@ -51,7 +51,7 @@ function Sucursales() {
             <Tab eventKey="LaRioja" title="La Rioja">
                 <Row className='d-flex justify-content-center align-items-center'>
                     <Col>
-                        <p><b>Localidad:</b> Tafí Viejo </p>
+                        <p><b>Localidad:</b> La Rioja </p>
                         <p><b>Dirección:</b> Av. Peru 391 </p>
                         <p><b>Teléfono:</b> 0381 461-7761 </p>
                         <p><b>Email:</b> rrhh@josevpaoletti.com.ar </p>
@@ -65,7 +65,7 @@ function Sucursales() {
             <Tab eventKey="Santiago" title="Santiago del Estero">
                 <Row className='d-flex justify-content-center align-items-center'>
                     <Col>
-                        <p><b>Localidad:</b> Tafí Viejo </p>
+                        <p><b>Localidad:</b> Santiago del Estero </p>
                         <p><b>Dirección:</b> Av. Peru 391 </p>
                         <p><b>Teléfono:</b> 0381 461-7761 </p>
                         <p><b>Email:</b> rrhh@josevpaoletti.com.ar </p>
