@@ -7,11 +7,25 @@ export default class AutoPlay extends Component {
         const settings = {
             dots: true,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
             speed: 2000,
             autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1024, // Cambiar la configuración para tabletas y dispositivos similares
+                    settings: {
+                        slidesToShow: 2, // Número de slides a mostrar en dispositivos de tamaño medio
+                    }
+                },
+                {
+                    breakpoint: 768, // Cambiar la configuración para dispositivos móviles
+                    settings: {
+                        slidesToShow: 1, // Número de slides a mostrar en dispositivos más pequeños (móviles)
+                    }
+                }
+            ]
             // cssEase: "linear"
         };
         return (

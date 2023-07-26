@@ -9,15 +9,18 @@ const HomeScreen = () => {
   return (
     <>
       <header className="home">
-        <Row className="d-xl-flex d-md-block d-sm-block justify-content-center align-items-center mt-2 w-100 animate__animated animate__fadeInDown p-3">
-          <Col className="col-lg-6 col-sm-12 col-md-12 header-1 text-center p-5">
-            <h1>Jose v. Paoletti</h1>
-            <p class="description">¡Bienvenidos a la distribuidora de mercadería líder en calidad y servicio!</p>
-            <p class="description">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>
-            <Button href="https://puntodeventa.tiendapropio.com/search" variant="success">¡Descubre aquí nuestras Ofertas!</Button>
+        <Row className="d-xl-flex d-md-block d-sm-block mt-2 w-100 animate__animated animate__fadeInDown p-3 justify-content-center">
+          <Col className="col-lg-6 col-sm-12 col-md-12 header-1 text-center p-3">
+            <h1 className="p-2 title-home">Jose v. Paoletti</h1>
+            <div className="mt-5 p-4">
+              <p class="description mt-2">¡Bienvenidos a la distribuidora de mercadería líder en calidad y servicio!</p>
+              <p class="description mt-2">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>
+            </div>
+
+            <Button href="https://puntodeventa.tiendapropio.com/search" variant="success" className="mt-2">¡Descubre aquí nuestras Ofertas!</Button>
           </Col>
           <Col className="col-lg-6 col-sm-12 col-md-12 header-2 p-3 text-center">
-            <h1 className="text-center p-2 title-sucursales">Nuestras Sucursales</h1>
+            <h1 className="text-center p-2 title-home">Nuestras Sucursales</h1>
             <Sucursales />
           </Col>
         </Row>
@@ -30,7 +33,7 @@ const HomeScreen = () => {
         </Row>
 
       </section>
-      <section className="section-1 m-5">
+      <section className="section-1 m-3">
         <Row className="d-flex text-center">
           <Col className="mt-4">
             <h1 className="title-section">Grupo Paoletti</h1>
@@ -72,15 +75,18 @@ const HomeScreen = () => {
                 </Card.Body>
               </Card>
             </CardGroup>
+            <Row className="d-flex justify-content-center aling-items-center m-5">
+              <Col className="col-10">
+                <MySlider />
+              </Col>
+            </Row>
+
+
           </Col>
         </Row>
       </section>
       <section>
-        <Row className="d-flex justify-content-center aling-items-center m-5">
-          <Col className="col-lg-10">
-            <MySlider />
-          </Col>
-        </Row>
+
       </section>
 
     </>
