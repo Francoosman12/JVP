@@ -7,7 +7,7 @@ import "../css/Navbar.css"
 
 function NavbarApp() {
   return (
-    <Navbar expand="lg" className="text-light navbar">
+    <Navbar expand="lg" className="navbar navbar-fixed-top">
       <Container>
         <Navbar.Brand className='d-flex align-items-center gap-2' href="#">
           <img src="https://i.ibb.co/GdhXk5R/logo-jvp.png" alt="" className='logo' />
@@ -20,7 +20,7 @@ function NavbarApp() {
             navbarScroll
           >
             <Nav.Link href="/" className='text-danger'>Inicio</Nav.Link>
-            <NavDropdown title="Empresa" id="navbarScrollingDropdown" className='text-danger'>
+            <NavDropdown title="Empresa" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action4" className='text-danger'>
                 Nosotros
               </NavDropdown.Item>
