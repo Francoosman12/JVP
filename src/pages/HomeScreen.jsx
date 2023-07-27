@@ -52,7 +52,7 @@ const HomeScreen = () => {
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                  <Image src="https://i.ibb.co/GdhXk5R/logo-jvp.png" rounded className="logo" />
+                  <Image src="https://i.ibb.co/GdhXk5R/logo-jvp.png" rounded className="logo-acordion" />
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -65,7 +65,7 @@ const HomeScreen = () => {
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <Image src="https://i.ibb.co/C2hLxJ8/Logo-PDV-removebg-preview.png" rounded className="logo" />
+                  <Image src="https://i.ibb.co/C2hLxJ8/Logo-PDV-removebg-preview.png" rounded className="logo-acordion" />
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
@@ -78,7 +78,7 @@ const HomeScreen = () => {
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <Image src="https://i.ibb.co/TmSRPVg/logo-dts-removebg-preview.png" rounded className="logo" />
+                  <Image src="https://i.ibb.co/TmSRPVg/logo-dts-removebg-preview.png" rounded className="logo-acordion" />
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
