@@ -12,12 +12,12 @@ const HomeScreen = () => {
         <Row className="w-100 animate__animated animate__fadeInDown p-3 justify-content-center align-items-center">
           <Col className="col-lg-10 header-1 text-center p-3">
             <h1 className="p-2">Jose V. Paoletti</h1>
-            <div className="mt-3 p-4">
+            <div className="mt-3">
               <p class="description mt-2">¡Bienvenidos a la distribuidora de mercadería líder en calidad y servicio!</p>
-              <p class="description mt-2 p-4">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>
+              <p class="description p-4">Ofrecemos una amplia gama de productos de primera calidad para satisfacer tus necesidades comerciales. Nuestro compromiso con la excelencia y la entrega puntual nos ha convertido en la opción preferida de numerosos clientes en todo el país.</p>
             </div>
 
-            <Button href="https://puntodeventa.tiendapropio.com/search" variant="success" className="mt-2">¡Descubre aquí nuestras Ofertas!</Button>
+            <Button href="https://puntodeventa.tiendapropio.com/search" variant="success" className="">¡Descubre aquí nuestras Ofertas!</Button>
           </Col>
           <Col className="col-lg-10 col-sm-12 col-md-12 header-2 p-3 text-center mt-5">
             <h1 className="text-center p-2 title-home">Nuestras Sucursales</h1>
